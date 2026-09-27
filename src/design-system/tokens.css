@@ -1,0 +1,173 @@
+:root {
+  /* Ophthalmic / fundus palette */
+  --color-bg-deep: #06141c;
+  --color-bg: #0b1f2a;
+  --color-bg-elevated: #123040;
+  --color-bg-soft: #163a4c;
+  --color-surface: rgba(18, 48, 64, 0.72);
+  --color-border: rgba(94, 234, 212, 0.18);
+  --color-border-strong: rgba(94, 234, 212, 0.35);
+
+  --color-text: #f7fbfc;
+  --color-text-muted: #9bb4c0;
+  --color-text-dim: #6f8a97;
+
+  --color-accent: #2ec4b6;
+  --color-accent-bright: #5eead4;
+  --color-accent-deep: #1a8f84;
+  --color-iris: #3d9fd6;
+  --color-warn: #e8b86d;
+  --color-danger: #e07a7a;
+  --color-success: #5ecf9a;
+
+  --font-display: 'Syne', 'Vazirmatn', sans-serif;
+  --font-body: 'Outfit', 'Vazirmatn', sans-serif;
+  --font-fa: 'Vazirmatn', 'Outfit', sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-glow: 0 0 40px rgba(46, 196, 182, 0.12);
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+  --max-width: 1120px;
+  --header-h: 4.25rem;
+  --transition: 180ms ease;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg-deep);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+html[lang='fa'] body,
+html[dir='rtl'] body {
+  font-family: var(--font-fa);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--color-accent-bright);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+a:hover {
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  line-height: 1.2;
+  margin: 0 0 var(--space-3);
+  font-weight: 700;
+}
+
+p {
+  margin: 0 0 var(--space-4);
+  color: var(--color-text-muted);
+}
+
+.container {
+  width: min(100% - 2rem, var(--max-width));
+  margin-inline: auto;
+}
+
+.page-section {
+  padding-block: var(--space-7);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.55;
+  }
+  70% {
+    transform: scale(1.08);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.08);
+    opacity: 0;
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease both;
+}
+
+.animate-fade-up-delay {
+  animation: fade-up 0.8s ease 0.15s both;
+}

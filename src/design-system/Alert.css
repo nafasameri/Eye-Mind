@@ -1,0 +1,37 @@
+.alert {
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.alert__title {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--color-text);
+}
+
+.alert__body {
+  color: var(--color-text-muted);
+  font-size: 0.925rem;
+}
+
+.alert--info {
+  border-color: rgba(61, 159, 214, 0.4);
+  background: rgba(61, 159, 214, 0.1);
+}
+
+.alert--success {
+  border-color: rgba(94, 207, 154, 0.4);
+  background: rgba(94, 207, 154, 0.1);
+}
+
+.alert--warning {
+  border-color: rgba(232, 184, 109, 0.45);
+  background: rgba(232, 184, 109, 0.1);
+}
+
+.alert--danger {
+  border-color: rgba(224, 122, 122, 0.45);
+  background: rgba(224, 122, 122, 0.12);
+}

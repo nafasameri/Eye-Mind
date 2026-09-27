@@ -1,0 +1,165 @@
+{
+  "brand": "EyeMind",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "login": "Log in",
+    "signup": "Sign up",
+    "app": "Console",
+    "logout": "Log out"
+  },
+  "home": {
+    "headline": "Intelligent retinal screening",
+    "sub": "Early diabetic retinopathy detection with clinical focus — fast, cloud-ready, built for your clinic.",
+    "ctaTrial": "Start free trial",
+    "ctaPricing": "View plans"
+  },
+  "about": {
+    "title": "About EyeMind",
+    "lead": "EyeMind is a retinal screening platform for clinics and hospitals, focused on DR and ROP.",
+    "body": "We combine fundus imaging with AI models for a faster, reliable diagnostic path. From a 100-scan trial to cloud subscriptions and on-premise deployment, it scales with your organization."
+  },
+  "contact": {
+    "title": "Contact us",
+    "lead": "Reach out for demos, technical support, or enterprise partnerships.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send message",
+    "success": "Your message was recorded. We will get back to you soon."
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "signupTitle": "Sign up",
+    "username": "Username",
+    "password": "Password",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone number",
+    "email": "Email",
+    "submitLogin": "Log in",
+    "submitSignup": "Create account",
+    "passwordHint": "At least 8 characters with upper, lower, digit, and symbol",
+    "selectTenantTitle": "Select organization",
+    "selectTenantLead": "You belong to multiple organizations. Choose the active one.",
+    "continue": "Continue",
+    "registerTitle": "Register new user",
+    "role": "Role"
+  },
+  "trial": {
+    "title": "Trial mode",
+    "lead": "You are signed in without an organization. You have up to 100 free scans.",
+    "remaining": "Remaining scans: {{count}}",
+    "buy": "Buy subscription",
+    "checkEntitlement": "Check entitlement"
+  },
+  "app": {
+    "welcome": "Welcome",
+    "role": "Active role",
+    "tenant": "Active organization",
+    "linksTitle": "Shortcuts"
+  },
+  "pricing": {
+    "title": "Subscription plans",
+    "lead": "Monthly or yearly cloud subscriptions for DR screening.",
+    "scans": "{{count}} scans",
+    "unlimited": "Unlimited",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "select": "Choose plan",
+    "empty": "No plans to show."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "tenantName": "Organization name (if creating new)",
+    "simulatePay": "Simulate payment",
+    "success": "Purchase completed successfully."
+  },
+  "commercial": {
+    "entitlementTitle": "Screening entitlement",
+    "check": "Check",
+    "recordUsage": "Record screening usage",
+    "aiScreeningId": "AI screening ID",
+    "usageType": "Usage type",
+    "usageHistory": "Usage history",
+    "licenses": "Licenses",
+    "invoices": "Invoices",
+    "pay": "Record payment",
+    "void": "Void",
+    "amount": "Amount",
+    "transactionId": "Transaction ID"
+  },
+  "tenants": {
+    "createTitle": "Create organization",
+    "membersTitle": "Add member",
+    "usersTitle": "Organization users",
+    "name": "Name",
+    "code": "Code",
+    "contact": "Contact person",
+    "address": "Address",
+    "status": "Status",
+    "addMember": "Add",
+    "create": "Create"
+  },
+  "subscriptions": {
+    "current": "Current subscription",
+    "assign": "Assign subscription",
+    "renew": "Renew",
+    "createInvoice": "Create invoice",
+    "pricingPlanId": "Pricing plan ID",
+    "tenantId": "Tenant ID",
+    "licenseType": "License type",
+    "startDate": "Start date"
+  },
+  "pps": {
+    "title": "Pay per screening",
+    "assign": "Assign license",
+    "renew": "Renew",
+    "invoice": "Create invoice"
+  },
+  "onprem": {
+    "title": "On-premise",
+    "provision": "Provision server",
+    "serverIp": "Server IP",
+    "current": "Current status",
+    "rotate": "Rotate key",
+    "validate": "Validate key",
+    "heartbeat": "Heartbeat",
+    "licenseKey": "License key",
+    "assign": "Assign license",
+    "renew": "Renew",
+    "invoice": "Invoice"
+  },
+  "common": {
+    "loading": "Loading…",
+    "save": "Save",
+    "back": "Back",
+    "required": "Required",
+    "actions": "Actions",
+    "noData": "No data",
+    "language": "Language"
+  },
+  "errors": {
+    "generic": "Something went wrong.",
+    "auth00001": "Invalid username or password.",
+    "auth00002": "Account is locked. Contact support.",
+    "auth00003": "These credentials are already registered.",
+    "auth00004": "These credentials are already registered.",
+    "auth00005": "An error occurred during signup.",
+    "auth00006": "The submitted information is invalid.",
+    "auth00007": "No active commercial license. Purchase or renew.",
+    "auth00008": "Screening quota for this period is exhausted.",
+    "auth00009": "License does not cover this screening type.",
+    "auth00010": "Local server is not valid.",
+    "auth00011": "Invoice cannot be issued in this state.",
+    "auth00012": "Payment cannot be recorded (duplicate or invalid transaction)."
+  },
+  "roles": {
+    "SUPER_ADMIN": "Super admin",
+    "TENANT_ADMIN": "Hospital admin",
+    "DOCTOR": "Doctor",
+    "OPERATOR": "Operator"
+  }
+}
